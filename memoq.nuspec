@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>memoQTranslatorPro</id>
+    <id>memoq-translator-pro</id>
     <version>#{VERSION}#</version>
     <packageSourceUrl>https://github.com/DigitecGalaxus/memoq-chocolatey-package</packageSourceUrl>
     <owners>DigitecGalaxus</owners>
 
     <title>memoQ Translator Pro</title>
     <authors>Kilgray</authors>
-    <projectUrl>https://dl.memoq.com/memoq/</projectUrl>
+    <projectUrl>https://www.memoq.com/products/memoq-translator-pro</projectUrl>
     <iconUrl>https://github.com/DigitecGalaxus/memoq-chocolatey-package/raw/master/logo_memoq.png</iconUrl>
     <copyright>Kilgray</copyright>
     <licenseUrl>https://www.memoq.com/pricing</licenseUrl>
