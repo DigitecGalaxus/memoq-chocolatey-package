@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>memoQ Translator Pro</id>
+    <version>#{VERSION}#</version>
+    <packageSourceUrl>https://github.com/DigitecGalaxus/memoq-chocolatey-package</packageSourceUrl>
+    <owners>DigitecGalaxus</owners>
+
+    <title>memoQ Translator Pro</title>
+    <authors>Kilgray</authors>
+    <projectUrl>https://dl.memoq.com/memoq/</projectUrl>
+    <iconUrl>https://github.com/DigitecGalaxus/memoq-chocolatey-package/raw/master/logo_memoq.png</iconUrl>
+    <copyright>Kilgray</copyright>
+    <licenseUrl>https://www.memoq.com/pricing</licenseUrl>
+    <!-- <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <docsUrl>https://docs.memoq.com</docsUrl>
+    <tags>memoq translator pro</tags>
+    <summary>memoQ Translator Pro</summary>
+    <description>memoQ translator pro is a computer-assisted translation environment tool which runs on Microsoft Windows operating system. It was designed by translators for translators and it increases productivity and quality for all those who perform, edit and review translations.</description>
+	  <releaseNotes>Release notes are shown within the application from now on.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
