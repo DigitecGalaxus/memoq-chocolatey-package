@@ -1,6 +1,6 @@
 # memoQ Chocolatey Package
-![Chocolatey Version](https://img.shields.io/chocolatey/v/memoq_translator_pro?label=chocolatey)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/DigitecGalaxus/memoq_translator_pro-chocolatey-package/main.yml)
+![Chocolatey Version](https://img.shields.io/chocolatey/v/memoq-translator-pro?label=chocolatey)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/DigitecGalaxus/memoq-chocolatey-package/main.yml)
 
 This repository contains the source code for a Chocolatey package that installs and updates the memoQ Translator Pro from Kilgray. Feel free to make adjustments and improvements to the code in this repository.
 
@@ -9,7 +9,7 @@ You can install the memoQ Translator Pro package using Chocolatey. Make sure you
 Once Chocolatey is installed, run the following command in your command prompt or PowerShell:
 
 ```bash
-choco upgrade memoq_translator_pro
+choco upgrade memoq-translator-pro
 ```
 
 ## Updating the Package
