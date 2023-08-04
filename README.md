@@ -30,7 +30,7 @@ $checksum = "C7E893EEF0A6F2BC4D87D6932A46DCC1EBC8A0FB17D5988DD1ED67CFCC2A26CA"
 git tag 10.2.11
 ```
 
-4. Commit your changes to the repository. Make sure you have staged all the changes you made in memoqinstall.ps1 and adapt the path in the git add command to the actual location of your chocolateyinstall.ps1 file:
+4. Commit your changes to the repository. Make sure you have staged all the changes you made in chocolateyinstall.ps1 and adapt the path in the git add command to the actual location of your chocolateyinstall.ps1 file:
 ```bash
 git add tools/chocolateyinstall.ps1
 git commit -m "Update version to 10.2.11"
