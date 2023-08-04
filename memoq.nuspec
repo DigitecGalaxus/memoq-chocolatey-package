@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>memoQ Translator Pro</id>
+    <id>memoQTranslatorPro</id>
     <version>#{VERSION}#</version>
     <packageSourceUrl>https://github.com/DigitecGalaxus/memoq-chocolatey-package</packageSourceUrl>
     <owners>DigitecGalaxus</owners>
