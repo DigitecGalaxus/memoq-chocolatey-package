@@ -9,15 +9,14 @@
     <title>memoQ Translator Pro</title>
     <authors>Kilgray</authors>
     <projectUrl>https://www.memoq.com/products/memoq-translator-pro</projectUrl>
-    <iconUrl>https://github.com/DigitecGalaxus/memoq-chocolatey-package/raw/master/logo_memoq.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/DigitecGalaxus/memoq-chocolatey-package@10/logo_memoq.png</iconUrl>
     <copyright>Kilgray</copyright>
-    <licenseUrl>https://www.memoq.com/pricing</licenseUrl>
-    <!-- <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <licenseUrl>https://www.memoq.com/legal/end-user-license-agreement</licenseUrl>
     <docsUrl>https://docs.memoq.com</docsUrl>
     <tags>memoq translator pro</tags>
     <summary>memoQ Translator Pro</summary>
     <description>memoQ translator pro is a computer-assisted translation environment tool which runs on Microsoft Windows operating system. It was designed by translators for translators and it increases productivity and quality for all those who perform, edit and review translations.</description>
-	  <releaseNotes>Release notes are shown within the application from now on.</releaseNotes>
+	  <releaseNotes>Release notes are shown within the application.</releaseNotes>
   </metadata>
   <files>
     <file src="tools/**" target="tools" />
