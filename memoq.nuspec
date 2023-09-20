@@ -5,7 +5,6 @@
     <version>#{VERSION}#</version>
     <packageSourceUrl>https://github.com/DigitecGalaxus/memoq-chocolatey-package</packageSourceUrl>
     <owners>DigitecGalaxus</owners>
-
     <title>memoQ Translator Pro</title>
     <authors>Kilgray</authors>
     <projectUrl>https://www.memoq.com/products/memoq-translator-pro</projectUrl>
@@ -21,4 +20,5 @@
   <files>
     <file src="tools/**" target="tools" />
   </files>
+</package>
 </package>
