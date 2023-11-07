@@ -1,9 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$version = "10.3.10"
+$version = "10.3.12"
 $url = "https://dl.memoq.com/memoq/memoQ-$version.exe"
-$checksum = "E6E92247F9F0152BDFCC7FC61216622364E5D20DCF285384E31D7E30F9F60396"
+$checksum = "12E2E35BCAA96F11E6B70348DBA26C762977C71DDFBA346E37B9C22443067822"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
