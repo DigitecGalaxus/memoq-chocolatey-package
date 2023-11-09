@@ -43,4 +43,4 @@ jobs:
         uses: crazy-max/ghaction-chocolatey@v1.4.0
         if: github.ref == 'refs/heads/master'
         with:
-          args: push memoq.$TAG.nupkg --source https://push.chocolatey.org/ --api-key ${{ secrets.CHOCO_API_KEY }} --allow-unofficial
+          args: push memoq-translator-pro.$TAG.nupkg --source https://push.chocolatey.org/ --api-key ${{ secrets.CHOCO_API_KEY }} --allow-unofficial
