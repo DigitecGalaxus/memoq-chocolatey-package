@@ -19,7 +19,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -35,12 +35,12 @@ jobs:
         run: find *.nuspec -type f -exec sed -i ''s/#{VERSION}#/$TAG/g'' {} \;
 
       - name: Choco Pack
-        uses: crazy-max/ghaction-chocolatey@v1.4.0
+        uses: crazy-max/ghaction-chocolatey@v3.4.0
         with:
           args: pack --allow-unofficial
 
       - name: Choco Push
-        uses: crazy-max/ghaction-chocolatey@v1.4.0
+        uses: crazy-max/ghaction-chocolatey@v3.4.0
         if: github.ref == 'refs/heads/master'
         with:
           args: push memoq-translator-pro.$TAG.nupkg --source https://push.chocolatey.org/ --api-key ${{ secrets.CHOCO_API_KEY }} --allow-unofficial
